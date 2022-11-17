@@ -73,7 +73,7 @@ string vectorToString(vector<int> passedVector)
 	int number;
 	for (int i = 0; i < VECTOR_SIZE; i++)
 	{
-		number = vectorPassed[i];
+		number = passedVector[i];
 		vectorAsStr += to_string(number) + " ";
 		if ((i + 1) % 10 == 0)
 		{
