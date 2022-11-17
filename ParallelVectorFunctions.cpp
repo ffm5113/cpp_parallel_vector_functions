@@ -18,7 +18,7 @@ const int VECTOR_SIZE = 500;
 // Reference parameter allows void function
 // to update main() vector values
 void fillVector(vector<int>& passedVector);
-string vectorToString(vector<int> vectorPassed);
+string vectorToString(vector<int> passedVector);
 int countParallelEvens(vector<int> v1, vector<int> v2);
 
 
@@ -67,7 +67,7 @@ void fillVector(vector<int>& passedVector)
 	}
 }
 // Return the vector in string format (10 ints per line)
-string vectorToString(vector<int> vectorPassed)
+string vectorToString(vector<int> passedVector)
 {
 	string vectorAsStr = "";
 	int number;
