@@ -21,7 +21,6 @@ void fillVector(vector<int>& passedVector);
 string vectorToString(vector<int> passedVector);
 int countParallelEvens(vector<int> v1, vector<int> v2);
 
-
 int main()
 {	// Seed random number generator using current time
 	srand(time(NULL));
